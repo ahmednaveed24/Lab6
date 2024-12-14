@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            padding: 1.5rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #0078d7;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+            background-color: #fafafa;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        .view-more {
+            color: #0078d7;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+            background-color: #333;
+            color: white;
+        }
+        a {
+            color: #0078d7;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>Work Section</h2>
+</header>
+
+<main>
+    <h2>My Work Section</h2>
+    <p>Here are my assignments, Class Work and Project that I did in this course for Mobile Development</p>
+
+    <h2>Course Work</h2>
+    <section>
+        <h3>Labs</h3>
+        <div class="card">
+            <h3>Lab 1: Introduction To Mobile Development</h3>
+            <p>A brief summary of Lab 1. Here in this assignment we have to compare an phones
+                between an IOS and Android phone. Also comparing which one is the best one to use and 
+                declaring a winner.<br>
+                <img src="Android1.png">
+                <img src="IOS1.png">
+            </p>
+            <a href="#view-more1">View More</a>
+        </div>
+        <div class="card">
+            <h3>Lab 4: Dart Programming Language</h3>
+            <p>A brief summary of Lab 4. Here we had to write down about Dart programming language.
+                We had to write down the definition, how and why is it used, comparison, benefits of it,
+                code examples and real-world scenarios.<br>
+            </p>
+            <p>
+                Code Examples<br><br>
+                Void main() {
+                    // Initializing a list of integers
+                    List<int> numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                
+                   // Using functional operations: filter, map and reduce 
+                   int sumOfDoubledEvens = numbers
+                     .where((n) => n.isEven)            // Filter even numbers
+                     .map((n) => n.isEven)              // Double each number
+                     .reduce((a, b) => a + b);          // Sum all elements 
+                
+                   Print(“Sum of doubled even numbers: $sumOfDoubledEvens”);
+                   // Output: Sum of doubled even numbers: 60
+                }                
+            </p>
+            <a href="#view-more2">View More</a>
+        </div>
+        <!-- Add more labs as needed -->
+    </section>
+
+    <section>
+        <h3>Class Work</h3>
+        <div class="card">
+            <h3>Class Work 2: Using MIT App Inventor</h3>
+            <p>Here in this Class Work 2 activity I had to design an app that would create an Introduction
+                screen and a multi-screen.<br>
+                <img src="CW2(1).png" style="width:300px;height:300px;">
+                <img src="CW2(2).png" style="width:300px;height:300px;">
+                <img src="CW2(3).png" style="width:300px;height:300px;">
+                <img src="CW2(4).png" style="width:300px;height:300px;">
+            </p>
+            <a href="#view-more3">View More</a>
+        </div>
+        <div class="card">
+            <h3>Class Work 3: Flutter Project</h3>
+            <p>In this Class Work 3 activity we had to create a Flutter app.<br>
+                <img src="CW3(1).png" style="width:300px;height:300px;">
+                <img src="CW3(2).png" style="width:300px;height:300px;">
+                <img src="CW3(3).png" style="width:300px;height:300px;">
+                <img src="CW3(4).png" style="width:300px;height:300px;">
+                <img src="CW3(5).png" style="width:300px;height:300px;">
+                <img src="CW3(6).png" style="width:300px;height:300px;">
+            </p>
+            <a href="#view-more4">View More</a>
+        </div>
+        <!-- Add more classwork examples as needed -->
+    </section>
+
+    <section>
+        <h3>Projects</h3>
+        <div class="card">
+            <h3>Final Project: Durham Clothing App</h3>
+            <p>A detailed summary of your final project. Include the purpose, approach, and what you learned.</p>
+            
+            <a href="#view-more5">View More</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <h2>What You'll Find Here</h2>
+    <ul>
+        <li>Insights into my academic projects and achievements</li>
+        <li>Examples of assignments and labs that I have done</li>
+        <li>A showcase of my skills and portfolio</li>
+    </ul>
+
+    <p>Feel free to explore and get to know me better!</p>
+</main>
+
+<footer>
+    <p>&copy; 2024 Ahmed Naveed. All rights reserved.</p>
+    <p>Connect with me on <a href="#">LinkedIn</a> or <a href="#">GitHub</a>.</p>
+</footer>
+
+</body>
+</html>
